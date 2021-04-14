@@ -1,0 +1,35 @@
+<meta charset="UTF-8">
+<script>
+
+function pulaLinha (){
+
+    document.write("<br>");
+}
+
+function exibe(texto) {
+
+    document.write(texto);
+    pulaLinha();
+
+}
+
+var numeroFinal = parseInt(prompt("Informe o último número da lista:"));
+
+var numeroInicial = parseInt(prompt("Informe o número que deseja começar a exibição dos pares:"))
+
+var ePar = numeroInicial % 2
+
+while (ePar != 0){
+    alert("Número informado não é par!");
+    var numeroInicial = parseInt(prompt("Informe um número PAR:"));
+    var ePar = numeroInicial % 2
+}
+
+    while ( numeroInicial <= numeroFinal){
+        document.write(numeroInicial)
+        document.write("<br>");
+        numeroInicial = numeroInicial + 2
+
+    }
+
+</script>

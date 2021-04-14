@@ -1,0 +1,94 @@
+<meta charset="UTF-8">
+<script>
+
+function pulaLinha (){
+
+    document.write("<br>");
+}
+
+function exibe(texto) {
+
+    document.write(texto);
+    pulaLinha();
+
+}
+function geraNumero(n) {
+
+     return Math.round(Math.random()*n) 
+    
+   
+}
+
+
+function verifica(numeroUsuario) {
+
+    if (numeroUsuario == numeroGerado){
+        exibe("Você acertou!" + " O número que pensei era o: " + numeroGerado);
+        tentativas = 999
+    }
+    if (numeroUsuario != numeroGerado){
+
+        if (numeroGerado > numeroUsuario){
+            alert ("Você errou. Pensei em um número MAIOR!" + " Restam: " + (chances - tentativas - 1) + (" chances."));
+        }
+        else{
+            alert ("Você errou. Pensei em um número MENOR!" + " Restam: " + (chances - tentativas - 1) + (" chances."));
+        }
+        tentativas++
+    }
+
+    
+}
+
+alert("Dificuldade:  Fácil = 3 tentativas  Médio = 2 tentativas  Difícil = 1 tentativas");
+
+var chances = prompt("Informe o numero de tentativas que deseja:")
+
+while (chances != 1 && chances != 2 && chances != 3){
+    alert ("Opção inválida. Favor informar 1, 2 ou 3.")
+    var chances = prompt("Informe o numero de tentativas que deseja:")
+}
+
+var dezenasOuCentenas = parseInt(prompt("Informe 10 para um jogo mais fácil, onde terá apenas numeros de 0 a 10. Caso queira algo mais difícil, informe 100 para números de 0 a 100."));
+
+while (dezenasOuCentenas != 10 && dezenasOuCentenas != 100){
+
+    alert("Opção Inválida! Informe 10 ou 100.")
+    var dezenasOuCentenas = parseInt(prompt("Informe 10 ou 100?"))
+
+}
+
+var numeroGerado = geraNumero(dezenasOuCentenas)
+alert(numeroGerado)
+
+var tentativas = 0
+
+if (chances == 3){
+    
+    while(tentativas < chances){
+    var numeroInformado = Number(prompt("Que número eu estou pensando?"))
+    verifica(numeroInformado)
+    }
+}
+
+if (chances == 2){
+    
+    while(tentativas < chances){
+    var numeroInformado = Number(prompt("Que número eu estou pensando?"))
+    verifica(numeroInformado)
+    }
+}
+
+if (chances == 1){
+    
+    while(tentativas < chances){
+    var numeroInformado = Number(prompt("Que número eu estou pensando?"))
+    verifica(numeroInformado )
+    }
+}
+
+if (chances == tentativas){
+
+    exibe ("Acabaram suas chances. O número pensado era o: " + numeroGerado);
+}
+</script>

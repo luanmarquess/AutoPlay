@@ -1,0 +1,123 @@
+header{
+    color: rgb(255, 255, 255);
+    text-align: center; 
+    image-rendering: auto;
+    }
+
+.classPopCorn{
+    position: absolute;
+    top: 740px;
+    left: 640px;
+}
+
+.classFilmsInTheaters{
+    position: absolute;
+    top: 750px;
+    left: 75px;
+}
+
+.classDate{
+    position: absolute;
+    top: 750px;
+    left: 290px;
+}
+
+.calssHour{
+    position: absolute;
+    top: 750px;
+    left: 480px;
+}
+
+.classTicketPrices{
+    position: absolute;
+    top: 750px;
+    left: 720px;
+}
+
+.classColumnsSelection{
+    position: absolute;
+    top: 750px;
+    left: 920px;
+}
+
+.classRowSelection{
+    position: absolute;
+    top: 750px;
+    left: 1126px;
+}
+
+.classButtonBuy{
+    position: absolute;
+    top: 870px;
+    left: 610px;
+}
+
+.imgTicket{
+    position: absolute;
+    left: 500px;
+    top: 945px;
+}
+
+.filmInfos{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 970px;
+    left: 570px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 10pt;
+}
+
+.dateInfos{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 990px;
+    left: 570px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 10pt;
+}
+
+.hourInfos{
+    position: absolute;
+    color: black;
+    top: 1010px;
+    left: 570px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 10pt;
+}
+
+.placeInfos{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 1030px;
+    left: 570px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 10pt;
+}
+
+.buyInfos{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 1050px;
+    left: 570px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 10pt;
+}
+
+.endMessage{
+    position: absolute;
+    color: rgb(0, 0, 0);
+    top: 1080px;
+    left: 620px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15pt;
+}
+
+      
+
+    

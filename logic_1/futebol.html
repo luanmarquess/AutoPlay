@@ -1,0 +1,36 @@
+<meta charset="UTF-8">
+
+<script>
+
+function pulaLinha(){
+
+    document.write("<br><br>");
+}
+
+function exibe(texto){
+    document.write(texto);
+    pulaLinha()
+}
+
+var vitorias =  parseInt(prompt("Informe o numero de vitorias:"));
+var empates = parseInt(prompt("Informe o numero de empates:"));
+var pontos = (vitorias * 3) + empates
+var pontoAnoPassado = parseInt(prompt("Informe a quantidade de pontos do seu time no ano passado:"));
+
+//IF RESPONDE POR TRUE OR FALSE, OU SEJA, SE A CONDIÇÃO FOR VERDADEIRA, ELE EXECUTA O BLOCO, SE NÃO, PULA.
+
+if (pontos > pontoAnoPassado){
+    exibe ("Os ponto do seu time é: " + pontos);
+    exibe("O total de pontos do seu time foi maior que a do ano passado!");
+} 
+
+if (pontos < pontoAnoPassado){
+    exibe ("Os ponto do seu time é: " + pontos);
+    exibe("O total de pontos do seu time foi menor que o do ano passado!");
+}
+if(pontos == pontoAnoPassado) {
+    exibe ("Os ponto do seu time é: " + pontos);
+    exibe ("O total de pontos do seu time foi igual a do ano passado!");
+}
+
+</script>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilo.css'>
+</head>
+<body id="backGorund" onplay="verificar()">
+
+    <header>
+        <h1>Avaliação de Idades</h1>
+    </header>
+
+    <section>
+        <p>Ano de nascimento: 
+            <input type="number" id="bornYear"></input>
+        </p>
+
+        <p>Sexo:
+            <input type="radio" name="ckGenders" id="ck_man" checked>
+            <label for = "masc">Masculino</label>
+
+            <input type="radio" name="ckGenders" id="ck_wom">
+            <label for = "fem">Feminino</label>
+        </p>
+
+        <p id="alert"></p>
+
+        <p>
+            <input type = "button" value="Consultar" onclick="verificar()">
+        </p>
+
+        <div id="typeOfSex"></div>
+        <div align="center">
+            <img id="img_gender" alt="">
+        </div>
+  
+    </section>
+
+    <footer>&copy; Capacitação T.I</footer>
+
+    <script src='script.js'></script>  
+</body>
+</html>

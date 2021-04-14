@@ -1,0 +1,118 @@
+<meta charset="UTF-8">
+
+Insira seu chute: <input/>
+<button>verificar</button>
+
+<script>
+
+
+function geraNumero (n){
+   return Math.round(Math.random()*n);
+   
+}
+
+function sorteiaNumeros(quatidade){
+    var numerosSorteados = []
+    var contador = 1
+    var numeroSorteadoAleatorio
+    var achou
+        while(contador <= quatidade){
+            numeroSorteadoAleatorio = geraNumero(dezenasCentenasMilhares)
+            achou = false
+
+            for(var posicao = 0; posicao < numerosSorteados.length; posicao++){
+                if ( (numerosSorteados[posicao] == numeroSorteadoAleatorio) || (numeroSorteadoAleatorio == 0) ){
+                    achou = true;
+                    break
+                }
+            }
+            if(achou == false){
+                numerosSorteados.push(numeroSorteadoAleatorio);
+                contador++
+            }
+       }
+    return numerosSorteados
+}
+
+var tamanhoArray = parseInt(prompt("Informe quantos números eu devo pensar."))
+while(isNaN(tamanhoArray)){
+    alert("Informe um NÚMERO!")
+    tamanhoArray = parseInt(prompt("Informe quantos números eu devo pensar."))
+}
+
+var dezenasCentenasMilhares = parseInt(prompt("Digite 10 para pensar de 1 a 10. Digite 100 para pensar de 1 a 100 ou 1000 para pensar de 1 a 1000"))
+while(dezenasCentenasMilhares != 10 && dezenasCentenasMilhares != 100 && dezenasCentenasMilhares != 1000){
+    alert("Opção Inválida!")
+    dezenasCentenasMilhares = parseInt(prompt("Informe 10, 100 ou 1000."))
+}
+
+while (tamanhoArray > dezenasCentenasMilhares){
+    alert("A quantidade de números que eu penso não pode ser maior que as possibilidades. ")
+    tamanhoArray = parseInt(prompt("Informe quantos números eu devo pensar."))
+    dezenasCentenasMilhares = parseInt(prompt("Informe 10, 100 ou 1000."))    
+}
+
+
+var numeros = sorteiaNumeros(tamanhoArray);
+console.log(numeros)
+
+var input = document.querySelector("input");
+input.focus();
+
+
+var chances 
+if ((dezenasCentenasMilhares == 10) && (tamanhoArray <= 5)){
+    chances = 2
+}
+if ((dezenasCentenasMilhares == 10) && (tamanhoArray > 5)){
+    chances = 3
+}
+if ((dezenasCentenasMilhares == 100) && (tamanhoArray <= 50)){
+    chances = 10
+}
+if ((dezenasCentenasMilhares == 100) && (tamanhoArray > 50)){
+    chances = 15
+}
+if ((dezenasCentenasMilhares == 1000) && (tamanhoArray <= 500)){
+    chances = 100
+}
+if ((dezenasCentenasMilhares == 1000) && (tamanhoArray > 500)){
+    chances = 750
+}
+
+var tentativas = 0
+
+function verifica (){
+    if (tentativas < chances){
+        var achou
+        for (var posicao = 0; posicao < numeros.length; posicao++){
+            achou = false
+
+            if (input.value == numeros[posicao]){
+                alert("Você Acertou!");
+                achou = true
+                break
+            }
+        }
+        if (achou == false){
+
+            alert("Você errou!");
+            tentativas++
+
+        }
+
+        input.value = "";
+        input.focus();
+    } else{
+        alert("Acabaram suas chances!" + "Reinicie a página para jogar novamente!");
+    }
+    
+
+
+}
+
+var button = document.querySelector("button");
+button.onclick = verifica
+
+
+</script>

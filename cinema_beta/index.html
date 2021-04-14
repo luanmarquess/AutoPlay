@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Cinema</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+        
+    </head>
+    <body onload = "onOpening()" background="img/cortina.jpg">       
+        
+        <header>
+            <div align="center"><img id = "cinema"></div>
+            <br><br><br>
+        </header>
+        <section>
+            <div align="center"><img id = "fristFilm"><img id = "secondFilm"><img id = "thirdFilm"><img id = "fourthFilm"><div>
+            <br><br>
+        </section>
+      
+    <select onchange ="filmSelection()" class="classFilmsInTheaters" id="filmsInTheaters">
+        <option>--Selecione o filme--</option>;
+        <option name="films">A Viúva das Sombras</option>;
+        <option name="films">Mulher-Maravilha 1984</option>;
+        <option name="films">Tom & Jerry: O Filme</option>;
+        <option name="films">Monster Hunter</option>;
+    </select>
+
+
+    <select onchange ="selectDate()" class= "classDate" id = "date">
+        <option>--Selecione o Dia--</option>
+        <option name="dates">Sg 28/03</option>;
+        <option name="dates">Te 29/03</option>;
+        <option name="dates">Qa 30/03 </option>;
+        <option name="dates">Qi 31/03</option>;
+        <option name="dates">Sx 01/04</option>;
+        <option name="dates">Sa 02/04</option>;
+        <option name="dates">Do 03/04</option>;
+    </select>
+
+
+    <select onchange ="selectHour()" class="calssHour" id = "hour">
+        <option>--Selecione o Horário--</option>
+        <option name="hours">14:00</option>;
+        <option name="hours">15:30</option>;
+        <option name="hours">17:00 </option>;
+        <option name="hours">18:30</option>;
+        <option name="hours">20:00</option>;
+        <option name="hours">21:30</option>;
+        <option name="hours">23:00</option>;
+    </select>
+
+    <select onchange ="price()" class="classTicketPrices" id="ticketPrices">
+        <option>--Tipo de Ingresso--</option>
+        <option name="prices">Meia Entrada: R$10</option>;
+        <option name="prices">Inteira: R$20</option>;
+    </select>
+
+    <select onchange="columnsSelection()" class="classColumnsSelection" id = "columnsSelection">
+        <option>--Selecione o Coluna--</option>
+        <option name="columns">A</option>;
+        <option name="columns">B</option>;
+        <option name="columns">C</option>;
+        <option name="columns">D</option>;
+        <option name="columns">E</option>;
+        <option name="columns">F</option>;
+    </select>
+
+    <select onchange="rowSelection()" class="classRowSelection" id="rowSelection">
+        <option>--Selecione o Fileira--</option>
+        <option name="rows">1</option>;
+        <option name="rows">2</option>;
+        <option name="rows">3</option>;
+        <option name="rows">4</option>;
+        <option name="rows">5</option>;
+        <option name="rows">6</option>;
+    </select>
+
+    <button class="classButtonBuy" onclick="buy()">Finalizar Compra</button>
+    <br><br>
+
+    <div><img class="imgTicket" id="ticket">
+    <div class="filmInfos" id="filmInfo"></div>
+    <div class="dateInfos" id="dateInfo"></div>
+    <div class="hourInfos" id="hourInfo"></div>
+    <div class="placeInfos" id="placeInfo"></div>
+    <div class="buyInfos" id="buyInfo"></div>
+    <div class ="endMessage" id="message"></div>
+
+    <div><img class="classPopCorn" id="popCorn"></div>
+    
+   
+
+
+    
+
+    <script src='script.js'></script>  
+</body>
+</html>
