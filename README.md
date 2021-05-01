@@ -1,14 +1,15 @@
-# getting-there
-Projects created to reinforce my studies and also keep improving my skills. 
-<br><br>
+<h1 align="center">AutoPlay</h1>
+<br>
+<p align="center">Projects created during the AutoPlay training process. 
+During this journey I am studying:</p>
 
+<ul>
+    <li>Programming Logic</li>
+    <li>Java Script</li>
+    <li>HTML5</li>
+    <li>CSS3</li>
+    <li>Relational database</li>
+    <li>Oracle database</li> 
+</ul>
 
-<h1 align="center">FreeWay</h1>
-<p align="center">## Project Description</p>
-<p align="center"> Reconstruction of a world famous game called Freeway</p>
-<p align="center">To play: You'll just need to press the arrow keys and watch out for obstacles! </p>
-<h1 align="center">
-    <a href=https://editor.p5js.org/luan.marques/present/W-q1A65ce>Click here to check it out!</a><br>
-    <a href=https://editor.p5js.org/luan.marques/present/QxDbfUtlY>Click here to check it out free way meme version!</a>
-</h1>
-<br><br>
+<p align="center">Feel free to contact me if you wish. &#128222</p>
