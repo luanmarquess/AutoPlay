@@ -1,6 +1,6 @@
 <h1 align="center">AutoPlay</h1>
 <br>
-<p align="center">Projects created during the AutoPlay training process. 
+<p align="center">Projects created throughout the AutoPlay training process. 
 During this journey I am studying:</p>
 
 <ul>
