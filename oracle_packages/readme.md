@@ -1,7 +1,7 @@
 <h1 align="center">Oracle Packages</h1>
 <br>
 <p align="center">Files created during the Oracle Packeges course. 
-During this journey I studied:</p>
+Throughout this journey I studied:</p>
 
 <ul>
     <li>Create synonym</li>
