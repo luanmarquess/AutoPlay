@@ -21,27 +21,27 @@
 
 ## Computed
 - Representação dos valores convertidos para o nevegador de margin, border e paddin de do elemento selecionado;
-- O valor não é o mesmo que está declarado no css, pois existem unidades de medida diferentes (em, px, %...). Desta forma, o valor contido na representação da aba Computed é igual a conversão do valor declarado.
-![computed](img/computed.png)
+- O valor não é o mesmo que está declarado no css, pois existem unidades de medida diferentes (em, px, %...). Desta forma, o valor contido na representação da aba Computed é igual a conversão do valor declarado.<br/>
+![computed](img/computed.PNG)
 
-- Computed também possibilita a visualização de propriedades que nosso elemento aceita alteração. Diferenciando das propriedades aplicadas pela diferença de opacity;
-![computed](img/propriedades.png)
+- Computed também possibilita a visualização de propriedades que nosso elemento aceita alteração. Diferenciando das propriedades aplicadas pela diferença de opacity; <br/>
+![computed](img/propriedades.PNG)
 
 ## Estilhos riscados no Style do navegador
-- O risco por cima de algum comando de estilo no devtools, indica que tal estilo está sendo sobrescrito. Ou seja, o mesmo não está sendo utilizado ao renderizar a página;
-![sobrescrito](img/sobrescrito.png)
+- O risco por cima de algum comando de estilo no devtools, indica que tal estilo está sendo sobrescrito. Ou seja, o mesmo não está sendo utilizado ao renderizar a página; <br/>
+![sobrescrito](img/sobrescrito.PNG)
 
 ## MediaQuery 
-- Defermina algum estilo de acordo de acordo com algum critério. Pode ser usado para manipular elementos de acordo com a resolução do usuário/navegador;
-![mediaQuery](img/mediaQuery.png)
+- Defermina algum estilo de acordo de acordo com algum critério. Pode ser usado para manipular elementos de acordo com a resolução do usuário/navegador; <br/>
+![mediaQuery](img/mediaQuery.PNG)
 
 ## Erros de sitnaxe no CSS (visualizados no DevTools)
 - Erros de sintaxe em alguma linha são indicados pelo simbolo :warning:
 
 ## Identificação da folha de estilo
 - Devtools nos mostra qual arquivo contém o estilo aplicado em cada elemento;
-- nome arquivo --> extensão --> linha;
-![localizarArquivo](img/identificacao.png)
+- nome arquivo --> extensão --> linha; <br/>
+![localizarArquivo](img/identificacao.PNG)
 
 # Console
 
@@ -90,8 +90,8 @@
 - {3} == todas mensagens que possuem no mínimo 3 números;
 
 ## Manter o histórico de Logs no console
-- Para manter os logs no console do navegador, mesmo que a página seja recarregada, precisamos selecionar o check "Preserve log";
-![preserve-log](img/preserve-log.png)
+- Para manter os logs no console do navegador, mesmo que a página seja recarregada, precisamos selecionar o check "Preserve log"; <br/>
+![preserve-log](img/preserve-log.PNG)
 
 ## $_
  - Recupera o resultado do último comando executado no console;
@@ -109,8 +109,8 @@
     - $4 == primeiro.
 
 ## $()
-- Busca de dom no console, com uma sintaxe mais simplificada;
-![cifrao-busca](img/cifrao-busca.png)
+- Busca de dom no console, com uma sintaxe mais simplificada; <br/>
+![cifrao-busca](img/cifrao-busca.PNG)
 
 ## $$
 - Busca todos os elementos passados como parâmetro;
@@ -120,8 +120,8 @@
 - UpArrow acessa toda o histórico dos comandos anteriores;
 
 ## getEventListeners()
-- Exibe todos os listeners contidos no elemetno passado como parâmetro;
-![getEventListener](img/getEventListener.png)
+- Exibe todos os listeners contidos no elemetno passado como parâmetro; <br/>
+![getEventListener](img/getEventListener.PNG)
 
 ## Elements --> Event Listeners
 - Aba Event Listeners exibe todos os listeners vinculados ao elemento selecionado;
@@ -142,15 +142,16 @@
 - Stop na execução do código ao momento em que encontrar o breakpoint;
 
 ### Executar uma linha e pular para próxima
-![next-step](img/next-step.png)
+![next-step](img/next-step.PNG)
 
 ## Editar o código fonte direto do Devtools
 ### WorkSpace
 - Area de trabalho criada onde o DevTools permite alteração de arquivos;
-![addFolderToWorkSpace](img/addFolderToWorkSpace.png)
+<br/>
+![addFolderToWorkSpace](img/addFolderToWorkSpace.PNG)
 
-- Adicionar pasta fonte;
-![createFolderToDevTools ](img/createFolderToDevTools.png)
+- Adicionar pasta fonte; <br/>
+![createFolderToDevTools ](img/createFolderToDevTools.PNG)
 
 - Aceitar o pedido de permição do navegador para realizar mudanças no arquivo fonte;
 
