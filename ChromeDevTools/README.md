@@ -170,11 +170,12 @@
 
 ![break-point-dom](img/break-point-dom.png)
 
-    - Subtree Modifications: BreakPoint quando acontecer modificação na árvore interna do elemento;
-    - Atributes Modifications: BreakPoint caso haja a alteração de algum atributo do elemento;  
-    - Node Removal: BreakPoint caso o elemento seja removido;
+- Subtree Modifications: BreakPoint quando acontecer modificação na árvore interna do elemento;
+- Atributes Modifications: BreakPoint caso haja a alteração de algum atributo do elemento;  
+- Node Removal: BreakPoint caso o elemento seja removido;
 
 - Checar breakpoints na aba DOM BreakPoints;
+
 ![dom-breakpoints](img/dom-breakpoints.PNG)
 
 - O debbug irá iniciar assim que o usuário fizer alguma interação com a linha em que colocamos o breakpoit/tipo
