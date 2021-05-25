@@ -160,14 +160,16 @@
 - Aceitar o pedido de permição do navegador para realizar mudanças no arquivo fonte;
 
 - Toda modificação feita e não salva, exibbirá um * ao lado do nome do arquivo
-![modificacao-nao-salva](im/modificacao-nao-salva.PNG)
+![modificacao-nao-salva](img/modificacao-nao-salva.PNG)
 - CTRL + S para salvar. O código fonte será modificado automaticamente;
 
 - Para remover, basta dar um "Remove folder from workspace".
 
 ## Debbug através da interação do usuário
 - Adicionar o breakPoint direto no DOM;
-![break-point-dom](img/break-point-dom.PNG)
+
+![break-point-dom](img/break-point-dom.png)
+
     - Subtree Modifications: BreakPoint quando acontecer modificação na árvore interna do elemento;
     - Atributes Modifications: BreakPoint caso haja a alteração de algum atributo do elemento;  
     - Node Removal: BreakPoint caso o elemento seja removido;
