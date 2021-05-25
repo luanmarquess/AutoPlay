@@ -10,6 +10,9 @@ During this journey I am studying:</p>
     <li>CSS3</li>
     <li>Relational database</li>
     <li>Oracle database</li> 
+    <li>Chrome DevTools</li>
+    <li>Less</li>
+    <li>Agile</li> 
 </ul>
 
 <p align="center">Feel free to contact me if you wish. &#128222</p>
