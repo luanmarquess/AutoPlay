@@ -12,7 +12,7 @@
 
 ## Styles -> Properties
 - Visualizar as propriedades de cada elemento;
-- Hierarquia; 
+- Hierarquia; gi
 
 ## Significado cores ao passar mouse por cima do elemento
 - Azul == tamanho do conteúdo do elemento 
@@ -144,6 +144,10 @@
 ### Executar uma linha e pular para próxima
 ![next-step](img/next-step.PNG)
 
+## Scope
+- Exibe o escopo de todas  as variáveis 
+- js ao ser executado, sua primeira realização é a criação das variáveis, já alocando espaço em momória, recebendo undefined para as que ainda não possuem valor;
+
 ## Editar o código fonte direto do Devtools
 ### WorkSpace
 - Area de trabalho criada onde o DevTools permite alteração de arquivos;
@@ -155,9 +159,145 @@
 
 - Aceitar o pedido de permição do navegador para realizar mudanças no arquivo fonte;
 
-## Scope
-- Exibe o escopo de todas  as variáveis 
-- js ao ser executado, sua primeira realização é a criação das variáveis, já alocando espaço em momória, recebendo undefined para as que ainda não receberam valor;
+- Toda modificação feita e não salva, exibbirá um * ao lado do nome do arquivo
+![modificacao-nao-salva](im/modificacao-nao-salva.PNG)
+- CTRL + S para salvar. O código fonte será modificado automaticamente;
+
+- Para remover, basta dar um "Remove folder from workspace".
+
+## Debbug através da interação do usuário
+- Adicionar o breakPoint direto no DOM;
+![break-point-dom](img/break-point-dom.PNG)
+    - Subtree Modifications: BreakPoint quando acontecer modificação na árvore interna do elemento;
+    - Atributes Modifications: BreakPoint caso haja a alteração de algum atributo do elemento;  
+    - Node Removal: BreakPoint caso o elemento seja removido;
+
+- Checar breakpoints na aba DOM BreakPoints;
+![dom-breakpoints](img/dom-breakpoints.PNG)
+
+- O debbug irá iniciar assim que o usuário fizer alguma interação com a linha em que colocamos o breakpoit/tipo
+
+### BreakPoint por EventListener
+
+- Sempre que o EventListener que está selecionado como brackpoint acontecer, o processo de debbug é iniciado e o trecho do código que corresponde a tal listener é exibido na aba source;
+![listener-breakpoint](img/listener-breakpoint.PNG)
+
+## Pretty Print
+- Identa o código que foi executado pelo navegador, com o objetivo de facilitar a leitura;
+![pretty-print](img/pretty-print.PNG)
+
+
+## NetWork
+- Exibir problemas de conectividade;
+- Exibe todas as requisições que foram solicitadas para exibição da tela;
+
+### Coluna Name
+- Nome do arquivo ou url que está fazendo a requisição;
+
+### Status
+- Status da requisição. 
+- Códigos: 404 (página não encontrada); 200 (ok);;
+- finished: Quando os arquivos estão na máquina local. Ou seja, não precisou usar o protocolo HTTP para fazer a requisição... 
+
+### Type 
+- Tipo de arquivo carregado;
+- xhr: tipo de requisição assíncrona.
+
+### Initiator 
+- Quem solicitou ao navegador buscar o arquivo;
+
+### Size
+- Quantos bytes foram baixados por requisição;
+
+### Time
+- Tempo do processo desde a primeira requisição até o download do ultimo byte;
+
+### Timeline
+- Descrição do tempo levado parar cada etapa da requisição;
+- Ajuda a entender qual parte da requisição está levando mais tempo;
+    - Queueing == tempo de fila da requisição;
+    - Stalled == tempo de processamento do navegador;
+    - DNS Lookup: tempo de busca por DNS. Relação entre URL e IP == DNS;
+    - Initial Connection == tempo de abertura de canal de comunicação com o servidor;
+    - SSL == Certificado digital de segurança (pertence a Initial Connection);
+    - Request sent == tempo de envio de requisição;
+    - Waiting(TTFB) == tempo de espera pela resposta do servidor;
+    - Content Download == download do arquivo requisitado;
+    - Explanation == tempo total.
+
+## Request Error
+### Header
+- Cabeçalho do protocolo HTTP;
+- Informações trocadas entre o navegador e o servidor.
+
+### CROSS - Cross-Origin Resource Sharing
+- Access-Control-Allow-Origin: forma de acesso a usuário ao domínio;
+- Caso na aba network ao fazer uma requisição, exiba a informação nos headers, "Access-Control-Allow-Origin: *", significa que todos os usuários tem acesso a aquele domínio. 
+
+### No Throttling
+- Simulação de banda de internet inferior para testar o tempo das requisições;
+- Geralmente usado para simular a conexão dos aparelhos telefônicos.
+
+## Timeline
+- Exibir o procedimento de renderização do arquivo executado;
+- Permite gravar pedaços de execução do arquivo para avaliação de performance;
+
+### Funcionamento:
+- Iniciar a gravação (circulo preenchido);
+- Realizar a animação/função do site manualmente;
+- Parar a gravação;
+
+### Cores
+- Amarelo == Processamento do JavaScript;
+- Vermelho == Tempo de renderização. Ideal é 60 frames por segundo. Para obter tal resultado, cada frame não pode massar de 16ms;
+
+## Profiles
+- Grava informação a respeito do uso e o tempo de processamento para execução do site e suas funcionalidades;
+
+### Sanpshot
+- Scan do que foi salvo em memória; 
+
+## Audits
+- Analiza o código e da sugestões de melhoria; 
+
+## Application
+### Local Storage
+- API do JS utilizada para persistir informações do navegador. Ou seja, salva uma chave e um valor e para ter acesso ao valor futuramente, basta usar a chave;
+- Valor e chave são salvos em memória. Mesmo fechando o navegador, ele permanecem; 
+
+### Session Storage
+- Mesma funcionalidade do Local Storage, porém as informação são apagadas ao fechar o navegador;
+
+### Cookies 
+- Lista de parâmetros que o navegador manda ao servidor toda vez que encaminhar uma requisição;
+
+### Cache
+- Informação que são utilizadas com muita frequência, o navegador salva na maquina do usuário (espaço de memória alocado no processador); 
+
+## Security
+- Informações a respeito dos certificados e segurança das conexões;
+
+## Device / Responsivo
+- Altera a resolução do navegador para possibilitar a visualização da página em device display;
+- Responsivo: Habilita a mudança de resolução de maneira progressiva, para observar todas as possíves dimenssões e comportamentos da página;
+
+### MediaQuery 
+- Mudança de design ao transicionar por resoluções pre-setted;
+
+## Geolocalização Mobile 
+- navigator.geolocation
+- Localização do mobile adquirida por uma api que passa a latitude e longitude do aparelho;
+
+## Acelerômetro
+- Alterar a posição do display(vertical ou horizontal), de acordo com a posição do mesmo;
+
+### Sensors
+- DevTools Menu --> MoreTools --> Sensors
+- Aba para edição de geolocalização, orientation funcionalidades do mobile;
+
+
+
+
 
 
 
