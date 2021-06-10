@@ -1,4 +1,4 @@
-# AluraConf
+# **AluraConf**
 
 ## Projeto frontend. Página para anúncio de palestra. 
 
