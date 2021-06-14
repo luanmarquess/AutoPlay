@@ -96,7 +96,7 @@ const criaJogo = sprite => {
     };
 
     const processaChute = chute =>  { // arrowFunction que recebe apenas um parâmetro pode-se omitir os parenteses
-        if(!chute.trim()) throw Error("Chute inválido!");
+        if(!chute.trim()) throw Error("Chute inválido!")
 
         const exp = new RegExp(chute, 'gi');
         let resultado, acertou = false;
