@@ -127,9 +127,7 @@ const criaJogo = sprite => {
 
     const getLacunas = () => lacunas;
 
-
     const getEtapa = () => etapa;
-
 
 
     return { // quando propriedade tem o mesmo nome da variável que será atribuida, pode-se omitir a mesma.

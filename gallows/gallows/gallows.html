@@ -28,9 +28,11 @@
     <script src="js/jogo.js"></script>
     <script src="js/controller.js"></script>
     <script>
-        var sprite = createSprite('.sprite');
-        var jogo = criaJogo(sprite);
-        criaController(jogo);
+           criaController(
+            criaJogo(
+                createSprite('.sprite')
+            )
+        ).inicia();
     </script>
 </body>
 </html>

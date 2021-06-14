@@ -2,18 +2,14 @@
 const createSprite = selector =>{
 
     const moveFrame = (from, to)  => {
-
         $el.removeClass(from) // Remove a classe atual
         .addClass(to); // adiciona a classe do indece subsequente
 }
     const hasNext = () => currentFrame + 1 <= lastFrame; //limita o nextFrame para não entrar em loop infinito;
 
-
     const nextFrame = () => {
-
         if(hasNext()) moveFrame(frames[currentFrame], frames[++currentFrame]);
     }
-
 
     const reset = () => {
         moveFrame(frames[currentFrame],frames[0]);
@@ -21,7 +17,6 @@ const createSprite = selector =>{
     }
 
     const isFinished = () => !hasNext(); // retorna true quando não tiver mais frame
-
     
     let $el = $(selector); // jquery "$" indica que a variável guarda um jquery object
   
@@ -31,8 +26,6 @@ const createSprite = selector =>{
     const lastFrame = frames.length - 1;
 
     $el.addClass(frames[currentFrame]);
-    
-
 
     return{
         nextFrame,
