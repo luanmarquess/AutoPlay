@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo</title>
+</head>
+<body>
+    <script>
+
+    class Produto{
+        constructor(nome, preco){
+            this.nome = nome;
+            this.preco = preco;
+        }
+
+        getNome(){
+            return this.nome;
+        }
+
+        getPreco(){
+            return this.preco;
+        }
+    }
+
+
+
+    let produtos =[];
+
+    produtos[0] = new Produto("Lamborghini", 1000000);
+    produtos[1] = new Produto("Jipe", 46000);
+    produtos[2] = new Produto("Brasília", 16000);
+    produtos[3] = new Produto("Smart", 46000);
+    produtos[4] = new Produto("Fusca", 17000);
+    
+    let achaBarato = (produtos) => {
+
+    let posicaoMaisCaro = 0;
+
+        for(let i = 0; i < produtos.length ; i++){
+            
+
+            if(produtos[i].getPreco() > produtos[posicaoMaisCaro].getPreco()){
+            
+                posicaoMaisCaro = i;
+              
+            }
+        }
+        
+        console.log(posicaoMaisCaro);
+    }
+
+    achaBarato(produtos);  
+
+    </script>
+
+
+</body>
+</html> 
