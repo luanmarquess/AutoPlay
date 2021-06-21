@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+</head>
+<body>
+<script>
+class nota{
+    constructor(aluno, nota){
+        this.aluno = aluno;
+        this.valor = nota;
+    }
+
+    getAluno(){
+        return this.aluno;
+    }
+
+    getValor(){
+        return this.valor;
+    }
+}
+
+class testaMerge{
+
+    intercala(notasDoMauricio, notasDoAlberto){
+        total = notasDoMauricio.length + notasDoAlberto.length;
+        resultado.length = total;
+        let atualDoMaurício = 0;
+        let atualDoAlberto = 0;
+        let atual = 0;
+
+        while(atualDoMaurício < notasDoMauricio.length && atualDoAlberto < notasDoAlberto.length){
+
+            let nota1 = notasDoMauricio[atualDoMaurício];
+            let nota2 = notasDoAlberto[atualDoAlberto];
+            if(nota1.getValor() < nota2.getValor()){
+                //mauricio
+                console.log(nota1);
+                console.log(atual);
+                resultado[atual] = nota1;
+                atualDoMaurício++;
+            }else{
+                //alberto
+                console.log(nota2);
+                console.log(atual);
+                resultado[atual] = nota2;
+                atualDoAlberto++;
+            }
+            atual++;
+        }
+        while(atualDoMaurício < notasDoMauricio.length){
+            resultado[atual] =  notasDoMauricio[atualDoMaurício];
+            atual++;
+            atualDoMaurício++;
+        }
+        while(atualDoAlberto < notasDoAlberto.length){
+            resultado[atual] =  notasDoAlberto[atualDoAlberto];
+            atual++;
+            atualDoAlberto++;
+        }
+
+        return resultado;
+    }
+}
+
+
+
+
+    let notasDoMauricio = [];
+    notasDoMauricio[0] =  new nota("Andre", 4);
+    notasDoMauricio[1] =  new nota("Mariana", 5);
+    notasDoMauricio[2] =  new nota("Carlos", 8.5);
+    notasDoMauricio[3] =  new nota("Paulo", 9);
+    // console.log(notasDoMauricio);
+
+    let notasDoAlberto = [];
+    notasDoAlberto[0] = new nota("Juliana", 3);
+    notasDoAlberto[1] = new nota("Jonas", 6.7);
+    notasDoAlberto[2] = new nota("Lucia", 7);
+    notasDoAlberto[3] = new nota("Ana", 9.3);
+    notasDoAlberto[4] = new nota("Guilherme", 10);
+    // console.log(notasDoAlberto);
+
+    let total;
+    let resultado = [];
+    let rank = new testaMerge;
+    console.log(rank.intercala(notasDoMauricio, notasDoAlberto));
+
+ 
+
+
+
+</script>   
+</body>
+</html>

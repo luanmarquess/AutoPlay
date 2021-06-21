@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+</head>
+<body>
+<script>
+class nota{
+    constructor(aluno, nota){
+        this.aluno = aluno;
+        this.valor = nota;
+    }
+
+    getAluno(){
+        return this.aluno;
+    }
+
+    getValor(){
+        return this.valor;
+    }
+}
+
+class testaIntercalaUmArray{
+
+    intercala(notas, inicial, miolo, termino){
+        
+        resultado.length = termino;
+        let atual = 0;
+        let atual1 = inicial;
+        let atual2 = miolo;
+        let nota1;
+        let nota2;
+
+        while(atual1 < miolo && atual2 < termino){
+
+            nota1 = notas[atual1];
+            nota2 = notas[atual2];
+
+            if(nota1.getValor() < nota2.getValor()){
+                console.log(nota1);
+                console.log(atual);
+                resultado[atual] = nota1;
+                atual1++;
+            }else{
+                console.log(nota2);
+                console.log(atual);
+                resultado[atual] = nota2;
+                atual2++;
+            }
+            atual++;
+        }
+        while(atual1 < miolo){
+            resultado[atual] =  notas[atual1];
+            atual1++;
+            atual++;
+        }
+        while(atual2 < termino){
+            resultado[atual] =  notas[atual2];
+            atual2++;
+            atual++;
+        }
+
+        return resultado;
+    }
+}
+
+
+
+
+    let notas = [];
+    notas[0] =  new nota("Andre", 4);
+    notas[1] =  new nota("Mariana", 8.5);
+    notas[2] =  new nota("Carlos", 10);
+    notas[3] =  new nota("Paulo", 3);
+    notas[4] = new nota("Juliana", 6.7);
+    notas[5] = new nota("Jonas", 7);
+    notas[6] = new nota("Lucia", 9);
+    notas[7] = new nota("Ana", 5);
+    notas[8] = new nota("Guilherme", 9.3);
+    // console.log(notasDoMauricio);
+
+    let resultado = [];
+    let rank = new testaIntercalaUmArray;
+    console.log(rank.intercala(notas, 0, 1, 2));
+    console.log(rank.intercala(notas, 2, 3, 4));
+    console.log(rank.intercala(notas, 0, 2, 4));
+
+    console.log(rank.intercala(notas, 4, 5, 6));
+    console.log(rank.intercala(notas, 6, 7, 8));
+    
+    console.log(rank.intercala(notas, 0, 4, 8));
+
+    console.log(rank.intercala(notas, 0, 8, 9));
+
+ 
+
+
+
+</script>   
+</body>
+</html>
