@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+</head>
+<body>
+<script>
+    class nota{
+        constructor(aluno, nota){
+            this.aluno = aluno;
+            this.valor = nota;
+        }
+
+        getAluno(){
+            return this.aluno;
+        }
+
+        getValor(){
+            return this.valor;
+        }
+    }
+
+    let rankUsurarioNotas = (notas, usuario) => {
+        for(let atual = 0; atual < notas.length; atual++){
+            if(usuario == atual) atual++;
+            
+            if(notas[usuario].getValor() < notas[atual].getValor()){
+                melhores.push(notas[atual]);
+            }else{   
+                piores.push(notas[atual]);
+            }
+        }           
+        return piores;
+    }
+
+    let notas = [];
+    notas[0] = new nota("Andre", 4);
+    notas[1] = new nota("Mariana", 8.5);
+    notas[2] = new nota("Carlos", 10);
+    notas[3] = new nota("Paulo", 3);
+    notas[4] = new nota("Juliana", 6.7);
+    notas[5] = new nota("Jonas", 7);
+    notas[6] = new nota("Lucia", 9);
+    notas[7] = new nota("Ana", 5);
+    notas[8] = new nota("Guilherme", 9.3);
+    // console.log(notasDoMauricio);
+
+    let piores = [];
+    let melhores = [];
+    let rank = rankUsurarioNotas(notas, 1);
+    console.log(piores, melhores);
+
+</script>   
+</body>
+</html>

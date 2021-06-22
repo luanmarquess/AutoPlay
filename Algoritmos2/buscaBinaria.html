@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+</head>
+<body>
+<script>
+    class nota{
+        constructor(aluno, nota){
+            this.aluno = aluno;
+            this.valor = nota;
+        }
+
+        getAluno(){
+            return this.aluno;
+        }
+
+        getValor(){
+            return this.valor;
+        }
+    }
+
+    
+    let filtraNota = (notas, nota, atual, final) => {
+        console.log(atual, final)
+        for(atual; atual < final; atual++){
+            console.log(atual, notas[atual].getValor())
+            if(nota == notas[atual].getValor()){
+                naoEncontrou = false;
+               return "A posição do usuário é: "+atual;
+            }else{   
+                naoEncontrou = true; 
+            }
+        }
+        if(naoEncontrou){
+            return "Nenhum usuário tirou essa nota";
+        } 
+      
+    };
+
+    let buscaBinaria = (notas, posicaoInicial, posicaoFinal, nota) => {
+
+        let meio = (posicaoInicial + posicaoFinal)/2
+        if(meio%2 != 0){
+            meio = Math.round(meio);
+        }
+            // console.log(meio);
+        if(nota == notas[meio].getValor()){
+            return meio;
+        }
+        if(nota < notas[meio].getValor()){
+            let atual = posicaoInicial;
+            let final = meio;
+            return filtraNota(notas, nota, atual, final);
+            
+        }
+        if(nota > notas[meio].getValor()){
+            let atual = meio;
+            let final = notas.length;
+            return filtraNota(notas, nota, atual, final);
+            
+        }
+    };
+            
+
+    let notas = [];
+    notas[0] = new nota("Paulo", 3);
+    notas[1] = new nota("Andre", 4);
+    notas[2] = new nota("Ana", 5);
+    notas[3] = new nota("Juliana", 6.7);
+    notas[4] = new nota("Jonas", 7);
+    notas[5] = new nota("Mariana", 8.5);
+    notas[6] = new nota("Lucia", 9);
+    notas[7] = new nota("Guilherme", 9.3);
+    notas[8] = new nota("Carlos", 10);
+    // console.log(notasDoMauricio);
+
+    let naoEncontrou;
+    let buscaNota = buscaBinaria(notas, 0, notas.length, 1);
+    console.log(buscaNota);
+
+</script>   
+</body>
+</html>
