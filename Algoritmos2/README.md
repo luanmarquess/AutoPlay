@@ -1,1 +1,7 @@
-# Algoritmos II: MergeSort, QuickSort, Busca Binária e Análise de Algoritmo
+# Algoritmos II
+
+- MegaSort;
+- QuickSort;
+- Busca Binária;
+- Busca Linear;
+- Análise de desempenho.
