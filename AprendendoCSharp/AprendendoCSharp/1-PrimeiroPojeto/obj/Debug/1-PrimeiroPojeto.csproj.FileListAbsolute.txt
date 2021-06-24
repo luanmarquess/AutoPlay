@@ -1,7 +1,0 @@
-C:\Users\Luan\source\repos\AprendendoCSharp\1-PrimeiroPojeto\bin\Debug\1-PrimeiroPojeto.exe.config
-C:\Users\Luan\source\repos\AprendendoCSharp\1-PrimeiroPojeto\bin\Debug\1-PrimeiroPojeto.exe
-C:\Users\Luan\source\repos\AprendendoCSharp\1-PrimeiroPojeto\bin\Debug\1-PrimeiroPojeto.pdb
-C:\Users\Luan\source\repos\AprendendoCSharp\1-PrimeiroPojeto\obj\Debug\1-PrimeiroPojeto.csproj.AssemblyReference.cache
-C:\Users\Luan\source\repos\AprendendoCSharp\1-PrimeiroPojeto\obj\Debug\1-PrimeiroPojeto.csproj.CoreCompileInputs.cache
-C:\Users\Luan\source\repos\AprendendoCSharp\1-PrimeiroPojeto\obj\Debug\1-PrimeiroPojeto.exe
-C:\Users\Luan\source\repos\AprendendoCSharp\1-PrimeiroPojeto\obj\Debug\1-PrimeiroPojeto.pdb

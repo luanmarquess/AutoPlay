@@ -1,0 +1,7 @@
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\5-CaracteresETexto\bin\Debug\5-CaracteresETexto.exe.config
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\5-CaracteresETexto\bin\Debug\5-CaracteresETexto.exe
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\5-CaracteresETexto\bin\Debug\5-CaracteresETexto.pdb
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\5-CaracteresETexto\obj\Debug\5-CaracteresETexto.csproj.AssemblyReference.cache
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\5-CaracteresETexto\obj\Debug\5-CaracteresETexto.csproj.CoreCompileInputs.cache
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\5-CaracteresETexto\obj\Debug\5-CaracteresETexto.exe
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\5-CaracteresETexto\obj\Debug\5-CaracteresETexto.pdb

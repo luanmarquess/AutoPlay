@@ -1,0 +1,7 @@
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\8-Bool\bin\Debug\8-Bool.exe.config
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\8-Bool\bin\Debug\8-Bool.exe
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\8-Bool\bin\Debug\8-Bool.pdb
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\8-Bool\obj\Debug\8-Bool.csproj.CoreCompileInputs.cache
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\8-Bool\obj\Debug\8-Bool.exe
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\8-Bool\obj\Debug\8-Bool.pdb
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\8-Bool\obj\Debug\8-Bool.csproj.AssemblyReference.cache

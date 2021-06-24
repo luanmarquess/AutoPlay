@@ -1,0 +1,7 @@
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\9-ImpostoDeRenda\bin\Debug\9-ImpostoDeRenda.exe.config
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\9-ImpostoDeRenda\bin\Debug\9-ImpostoDeRenda.exe
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\9-ImpostoDeRenda\bin\Debug\9-ImpostoDeRenda.pdb
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\9-ImpostoDeRenda\obj\Debug\9-ImpostoDeRenda.csproj.CoreCompileInputs.cache
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\9-ImpostoDeRenda\obj\Debug\9-ImpostoDeRenda.exe
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\9-ImpostoDeRenda\obj\Debug\9-ImpostoDeRenda.pdb
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\9-ImpostoDeRenda\obj\Debug\9-ImpostoDeRenda.csproj.AssemblyReference.cache

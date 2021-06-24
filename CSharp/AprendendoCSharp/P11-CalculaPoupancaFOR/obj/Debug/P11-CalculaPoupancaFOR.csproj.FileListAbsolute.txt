@@ -1,0 +1,7 @@
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\P11-CalculaPoupancaFOR\bin\Debug\P11-CalculaPoupancaFOR.exe.config
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\P11-CalculaPoupancaFOR\bin\Debug\P11-CalculaPoupancaFOR.exe
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\P11-CalculaPoupancaFOR\bin\Debug\P11-CalculaPoupancaFOR.pdb
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\P11-CalculaPoupancaFOR\obj\Debug\P11-CalculaPoupancaFOR.csproj.AssemblyReference.cache
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\P11-CalculaPoupancaFOR\obj\Debug\P11-CalculaPoupancaFOR.csproj.CoreCompileInputs.cache
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\P11-CalculaPoupancaFOR\obj\Debug\P11-CalculaPoupancaFOR.exe
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\P11-CalculaPoupancaFOR\obj\Debug\P11-CalculaPoupancaFOR.pdb

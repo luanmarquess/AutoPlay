@@ -1,0 +1,6 @@
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\P13-Break\bin\Debug\P13-Break.exe.config
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\P13-Break\bin\Debug\P13-Break.exe
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\P13-Break\bin\Debug\P13-Break.pdb
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\P13-Break\obj\Debug\P13-Break.csproj.CoreCompileInputs.cache
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\P13-Break\obj\Debug\P13-Break.exe
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\P13-Break\obj\Debug\P13-Break.pdb

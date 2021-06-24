@@ -1,0 +1,6 @@
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\7-Condicionais\bin\Debug\7-Condicionais.exe.config
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\7-Condicionais\bin\Debug\7-Condicionais.exe
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\7-Condicionais\bin\Debug\7-Condicionais.pdb
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\7-Condicionais\obj\Debug\7-Condicionais.csproj.CoreCompileInputs.cache
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\7-Condicionais\obj\Debug\7-Condicionais.exe
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\7-Condicionais\obj\Debug\7-Condicionais.pdb

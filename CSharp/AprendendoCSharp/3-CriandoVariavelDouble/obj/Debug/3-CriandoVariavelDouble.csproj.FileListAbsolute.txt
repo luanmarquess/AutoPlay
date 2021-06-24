@@ -1,0 +1,13 @@
+C:\Users\Luan\source\repos\AprendendoCSharp\3-CriandoVariavelDouble\bin\Debug\3-CriandoVariavelDouble.exe.config
+C:\Users\Luan\source\repos\AprendendoCSharp\3-CriandoVariavelDouble\bin\Debug\3-CriandoVariavelDouble.exe
+C:\Users\Luan\source\repos\AprendendoCSharp\3-CriandoVariavelDouble\bin\Debug\3-CriandoVariavelDouble.pdb
+C:\Users\Luan\source\repos\AprendendoCSharp\3-CriandoVariavelDouble\obj\Debug\3-CriandoVariavelDouble.csproj.CoreCompileInputs.cache
+C:\Users\Luan\source\repos\AprendendoCSharp\3-CriandoVariavelDouble\obj\Debug\3-CriandoVariavelDouble.exe
+C:\Users\Luan\source\repos\AprendendoCSharp\3-CriandoVariavelDouble\obj\Debug\3-CriandoVariavelDouble.pdb
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\3-CriandoVariavelDouble\bin\Debug\3-CriandoVariavelDouble.exe.config
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\3-CriandoVariavelDouble\bin\Debug\3-CriandoVariavelDouble.exe
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\3-CriandoVariavelDouble\bin\Debug\3-CriandoVariavelDouble.pdb
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\3-CriandoVariavelDouble\obj\Debug\3-CriandoVariavelDouble.csproj.AssemblyReference.cache
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\3-CriandoVariavelDouble\obj\Debug\3-CriandoVariavelDouble.csproj.CoreCompileInputs.cache
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\3-CriandoVariavelDouble\obj\Debug\3-CriandoVariavelDouble.exe
+C:\Users\luan.marques\AutoPlay\CSharp\AprendendoCSharp\3-CriandoVariavelDouble\obj\Debug\3-CriandoVariavelDouble.pdb
