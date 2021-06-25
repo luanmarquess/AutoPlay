@@ -5,3 +5,6 @@
 - short;
 - double;
 - float;
+- for;
+- while;
+- break;
