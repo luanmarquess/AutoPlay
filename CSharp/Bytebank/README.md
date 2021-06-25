@@ -1,10 +1,7 @@
-# CSharp
+# ByteBank
 
-- int;
-- long;
-- short;
-- double;
-- float;
-- for;
-- while;
-- break;
+- Classes;
+- Métodos;
+- Private, Public, Static, Void;
+- Get, Set.
+
