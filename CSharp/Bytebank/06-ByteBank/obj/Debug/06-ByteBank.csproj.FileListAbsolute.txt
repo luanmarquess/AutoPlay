@@ -1,0 +1,7 @@
+C:\Users\luan.marques\source\repos\Bytebank\06-ByteBank\bin\Debug\06-ByteBank.exe.config
+C:\Users\luan.marques\source\repos\Bytebank\06-ByteBank\bin\Debug\06-ByteBank.exe
+C:\Users\luan.marques\source\repos\Bytebank\06-ByteBank\bin\Debug\06-ByteBank.pdb
+C:\Users\luan.marques\source\repos\Bytebank\06-ByteBank\obj\Debug\06-ByteBank.csproj.AssemblyReference.cache
+C:\Users\luan.marques\source\repos\Bytebank\06-ByteBank\obj\Debug\06-ByteBank.csproj.CoreCompileInputs.cache
+C:\Users\luan.marques\source\repos\Bytebank\06-ByteBank\obj\Debug\06-ByteBank.exe
+C:\Users\luan.marques\source\repos\Bytebank\06-ByteBank\obj\Debug\06-ByteBank.pdb
