@@ -1,4 +1,4 @@
-# ByteBank 02
+# ByteBank_02
 
 - Abstract class para reutilização do código em classes herdeiras;
 - :base acessar construtor da classe mãe;
