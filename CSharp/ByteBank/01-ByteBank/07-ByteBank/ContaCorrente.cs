@@ -9,12 +9,13 @@ namespace _07_ByteBank
     {
 
         public static double TaxaOperacao { get; private set; }
+        public int ContadorSaquesNaoPermitidos { get; private set; }
+        public int ContadorTransferenciasNaoPermitidas { get; private set;}
         public static int TotalDeContasCriadas { get; private set; } // static == propriedade que condiz a classe;
         public Cliente Titular { get; set; }
         //private readonly int _numero; // readonly, torna o campo apenas de leitura e só pode ser setado no construtor;
         public int Numero { get; } // executa a mesma função do readonly, onde deixa apenas atribuir no constructor;
-          
-      
+
         //private readonly int _agencia;
         public int Agencia { get; }
 
@@ -64,6 +65,7 @@ namespace _07_ByteBank
             }
             if (this._saldo < valor)
             {
+                ContadorSaquesNaoPermitidos++;
                 throw new SaldoInsuficienteException(Saldo, valor);
             }
 
@@ -83,10 +85,17 @@ namespace _07_ByteBank
             {
                 throw new ArgumentException("Valor inválido para a transferência.", nameof(valor));
             }
-            Sacar(valor);
+            try
+            {
+                Sacar(valor);
+            }
+            catch(SaldoInsuficienteException ex)
+            {
+                ContadorTransferenciasNaoPermitidas++;
+                throw new OperacaoFinanceiraException("Operação não realizada.", ex);
+            }
+
             contaDestino.Depositar(valor);
         }
-
-
     }
 }
