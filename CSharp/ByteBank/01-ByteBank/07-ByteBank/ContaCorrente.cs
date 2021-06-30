@@ -1,32 +1,23 @@
 ﻿//using _05_ByteBank;
 
 
+using System;
+
 namespace _07_ByteBank
 {
     public class ContaCorrente
     {
-        public Cliente Titular{get; set;}
 
-        public static int TotalDeContasCriadas { get; private set; } // static == propriedade que condiz a classe
+        public static double TaxaOperacao { get; private set; }
+        public static int TotalDeContasCriadas { get; private set; } // static == propriedade que condiz a classe;
+        public Cliente Titular { get; set; }
+        //private readonly int _numero; // readonly, torna o campo apenas de leitura e só pode ser setado no construtor;
+        public int Numero { get; } // executa a mesma função do readonly, onde deixa apenas atribuir no constructor;
+          
       
-        private int _agencia;
-        public int Agencia
-        {
-            get
-            {
-                return _agencia;
-            }
-            set
-            {
-                if (value <= 0)
-                {
-                    return;
-                }
+        //private readonly int _agencia;
+        public int Agencia { get; }
 
-                _agencia = value;
-            }
-        }
-        public int Numero { get; set; }
 
         private double _saldo = 100; // Default é 100 pois foi atribuido direto na classe;
 
@@ -47,25 +38,37 @@ namespace _07_ByteBank
         }
 
 
-        public ContaCorrente(int agencia, int numero)
+        public ContaCorrente(int NumeroAgencia, int NumeroConta)
         {
-            Agencia = agencia;
-            Numero = numero;
+            if(NumeroAgencia <= 0)
+            {
+                throw new ArgumentException("A agencia deve ser maior que 0.", nameof(NumeroAgencia));
+            }
+            if(NumeroConta <= 0)
+            {
+                throw new ArgumentException("O numero deve ser maior que 0", nameof(NumeroConta));
+            }
 
+            Agencia = NumeroAgencia;
+            Numero = NumeroConta;
             TotalDeContasCriadas++;
+            TaxaOperacao = 30 / TotalDeContasCriadas;
         }
 
 
-        public bool Sacar(double valor)
+        public void Sacar(double valor)
         {
+            if(valor < 0)
+            {
+                throw new ArgumentException("Valor inválido para o saque.", nameof(valor));
+            }
             if (this._saldo < valor)
             {
-                return false;
+                throw new SaldoInsuficienteException(Saldo, valor);
             }
 
             this._saldo -= valor;
-            return true;
-
+ 
         }
 
         // void indica que não tem retorno
@@ -74,17 +77,14 @@ namespace _07_ByteBank
             this._saldo += valor;
         }
 
-        public bool Transferir(double valor, ContaCorrente contaDestino)
+        public void Transferir(double valor, ContaCorrente contaDestino)
         {
-            if (this._saldo < valor)
+            if (valor < 0)
             {
-                return false;
+                throw new ArgumentException("Valor inválido para a transferência.", nameof(valor));
             }
-
-            this._saldo -= valor;
+            Sacar(valor);
             contaDestino.Depositar(valor);
-            return true;
-
         }
 
 

@@ -5,3 +5,10 @@ C:\Users\luan.marques\source\repos\Bytebank\07-ByteBank\obj\Debug\07-ByteBank.cs
 C:\Users\luan.marques\source\repos\Bytebank\07-ByteBank\obj\Debug\07-ByteBank.csproj.CoreCompileInputs.cache
 C:\Users\luan.marques\source\repos\Bytebank\07-ByteBank\obj\Debug\07-ByteBank.exe
 C:\Users\luan.marques\source\repos\Bytebank\07-ByteBank\obj\Debug\07-ByteBank.pdb
+C:\Users\luan.marques\source\repos\01_Bytebank\07-ByteBank\obj\Debug\07-ByteBank.csproj.AssemblyReference.cache
+C:\Users\luan.marques\source\repos\01_Bytebank\07-ByteBank\obj\Debug\07-ByteBank.csproj.CoreCompileInputs.cache
+C:\Users\luan.marques\source\repos\01_Bytebank\07-ByteBank\bin\Debug\07-ByteBank.exe.config
+C:\Users\luan.marques\source\repos\01_Bytebank\07-ByteBank\bin\Debug\07-ByteBank.exe
+C:\Users\luan.marques\source\repos\01_Bytebank\07-ByteBank\bin\Debug\07-ByteBank.pdb
+C:\Users\luan.marques\source\repos\01_Bytebank\07-ByteBank\obj\Debug\07-ByteBank.exe
+C:\Users\luan.marques\source\repos\01_Bytebank\07-ByteBank\obj\Debug\07-ByteBank.pdb
