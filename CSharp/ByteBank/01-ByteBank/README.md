@@ -7,5 +7,10 @@
 
 ### 07-ByteBank
 
-- Exception.
+- Kinds of Exceptions.
+- try, catch, finally;
+- Creating an exception; 
+- Exceptions with and without parameters.
+- using();
+- IDispose.
 
