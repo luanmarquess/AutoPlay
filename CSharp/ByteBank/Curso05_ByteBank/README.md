@@ -1,5 +1,5 @@
 # CSharp
-## Bibliotecas DLLs, documentação e Nuget
+## Bibliotecas DLL's, documentação e Nuget
 
 - Argumentos para documentação ///;
 - <parm> == referência para parâmetro;
