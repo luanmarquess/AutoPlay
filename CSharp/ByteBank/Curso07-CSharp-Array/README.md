@@ -8,4 +8,5 @@
 - Argumento opcional(caso passado como parâmetro sobrescreve o padrão declarado);
 - Argumento params;
 - Nomear Argumento, deixando explicito qual argumento o compilador deverá sobrescrever;
+- Tipo Genérica, restringindo tipo de argumento passado por parâmetro.
 
