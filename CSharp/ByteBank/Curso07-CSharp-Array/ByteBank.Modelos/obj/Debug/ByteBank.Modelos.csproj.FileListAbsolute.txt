@@ -1,0 +1,7 @@
+C:\Users\luan.marques\AutoPlay\CSharp\ByteBank\Curso07-CSharp-Array\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.xml
+C:\Users\luan.marques\AutoPlay\CSharp\ByteBank\Curso07-CSharp-Array\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.dll
+C:\Users\luan.marques\AutoPlay\CSharp\ByteBank\Curso07-CSharp-Array\ByteBank.Modelos\bin\Debug\ByteBank.Modelos.pdb
+C:\Users\luan.marques\AutoPlay\CSharp\ByteBank\Curso07-CSharp-Array\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.csproj.AssemblyReference.cache
+C:\Users\luan.marques\AutoPlay\CSharp\ByteBank\Curso07-CSharp-Array\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\luan.marques\AutoPlay\CSharp\ByteBank\Curso07-CSharp-Array\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.dll
+C:\Users\luan.marques\AutoPlay\CSharp\ByteBank\Curso07-CSharp-Array\ByteBank.Modelos\obj\Debug\ByteBank.Modelos.pdb
