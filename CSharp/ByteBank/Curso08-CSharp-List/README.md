@@ -6,6 +6,6 @@
 - Sort();
 - OderBy();
 - Where();
-- Expressão Lambda =>;
+- Expressão Lambda.
 
 
