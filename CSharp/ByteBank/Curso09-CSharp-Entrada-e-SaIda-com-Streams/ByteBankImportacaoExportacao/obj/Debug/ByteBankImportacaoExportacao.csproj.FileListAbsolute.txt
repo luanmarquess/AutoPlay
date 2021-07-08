@@ -1,0 +1,7 @@
+C:\Users\luan.marques\AutoPlay\CSharp\ByteBank\Curso09-CSharp-Entrada-e-SaIda-com-Streams\ByteBankImportacaoExportacao\bin\Debug\ByteBankImportacaoExportacao.exe.config
+C:\Users\luan.marques\AutoPlay\CSharp\ByteBank\Curso09-CSharp-Entrada-e-SaIda-com-Streams\ByteBankImportacaoExportacao\bin\Debug\ByteBankImportacaoExportacao.exe
+C:\Users\luan.marques\AutoPlay\CSharp\ByteBank\Curso09-CSharp-Entrada-e-SaIda-com-Streams\ByteBankImportacaoExportacao\bin\Debug\ByteBankImportacaoExportacao.pdb
+C:\Users\luan.marques\AutoPlay\CSharp\ByteBank\Curso09-CSharp-Entrada-e-SaIda-com-Streams\ByteBankImportacaoExportacao\obj\Debug\ByteBankImportacaoExportacao.csproj.AssemblyReference.cache
+C:\Users\luan.marques\AutoPlay\CSharp\ByteBank\Curso09-CSharp-Entrada-e-SaIda-com-Streams\ByteBankImportacaoExportacao\obj\Debug\ByteBankImportacaoExportacao.csproj.CoreCompileInputs.cache
+C:\Users\luan.marques\AutoPlay\CSharp\ByteBank\Curso09-CSharp-Entrada-e-SaIda-com-Streams\ByteBankImportacaoExportacao\obj\Debug\ByteBankImportacaoExportacao.exe
+C:\Users\luan.marques\AutoPlay\CSharp\ByteBank\Curso09-CSharp-Entrada-e-SaIda-com-Streams\ByteBankImportacaoExportacao\obj\Debug\ByteBankImportacaoExportacao.pdb
