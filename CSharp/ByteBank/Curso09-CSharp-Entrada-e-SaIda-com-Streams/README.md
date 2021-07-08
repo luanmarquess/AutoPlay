@@ -1,11 +1,4 @@
-# C# parte 8: List, lambda, linq
+# C# Parte 9: Entrada e saída (I/O) com streams
 
-- List: Add(), Remove();
-- Método genérico;
-- Var: simplifica o código, copiando o tipo da expressão que a variável receberá;
-- Sort();
-- OderBy();
-- Where();
-- Expressão Lambda.
 
 
