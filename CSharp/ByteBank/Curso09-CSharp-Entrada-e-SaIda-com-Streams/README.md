@@ -12,6 +12,7 @@
 - GetBytes();
 - Flush();
 - BinaryWriter();
+- BinaryReader();
 
 
 
