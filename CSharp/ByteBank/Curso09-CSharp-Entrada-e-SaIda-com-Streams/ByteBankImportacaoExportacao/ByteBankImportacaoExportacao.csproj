@@ -42,10 +42,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LidandoComStreamDiretamente.cs" />
+    <Compile Include="2_UsandoStreamReader.cs" />
+    <Compile Include="1_LidandoComStreamDiretamente.cs" />
+    <Compile Include="4_StreamBinario.cs" />
+    <Compile Include="5_UsandoStreamDeEntradaDaConsole.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Modelos\Cliente.cs" />
     <Compile Include="Modelos\ContaCorrente.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="3_CriandoArquivoCSV.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
