@@ -6,6 +6,7 @@
 - Hashing;
 - LinkedList;
 - Stack (LIFO);
+- Queue (FIFO);
 
 
 
