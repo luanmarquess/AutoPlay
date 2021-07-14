@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CollectionsParteUm
+namespace ModuloUmArray
 {
     class Program
     {
@@ -13,16 +13,16 @@ namespace CollectionsParteUm
 
             //string[] aulas = new string[]
             //{
-                //aulaIntro,
-                //aulaModelando,
-                //aulaSets
+            //aulaIntro,
+            //aulaModelando,
+            //aulaSets
             //};
 
             //string[] aulas =
             //{
-                //aulaIntro,
-                //aulaModelando,
-                //aulaSets
+            //aulaIntro,
+            //aulaModelando,
+            //aulaSets
             //};
 
             string[] aulas = new string[3];

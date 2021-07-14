@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\luan.marques\\AutoPlay\\CSharp\\CSarp_Collections_parte_1_Listas_arrays_listas_ligadas_dicionarios_e_conjuntos\\CollectionsParteUm\\CollectionsParteUm\\CollectionsParteUm.csproj": {}
+    "C:\\Users\\luan.marques\\AutoPlay\\CSharp\\CSarp_Collections_parte_1_Listas_arrays_listas_ligadas_dicionarios_e_conjuntos\\ModuloUmArray\\ModuloUmArray.csproj": {}
   },
   "projects": {
-    "C:\\Users\\luan.marques\\AutoPlay\\CSharp\\CSarp_Collections_parte_1_Listas_arrays_listas_ligadas_dicionarios_e_conjuntos\\CollectionsParteUm\\CollectionsParteUm\\CollectionsParteUm.csproj": {
+    "C:\\Users\\luan.marques\\AutoPlay\\CSharp\\CSarp_Collections_parte_1_Listas_arrays_listas_ligadas_dicionarios_e_conjuntos\\ModuloUmArray\\ModuloUmArray.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\luan.marques\\AutoPlay\\CSharp\\CSarp_Collections_parte_1_Listas_arrays_listas_ligadas_dicionarios_e_conjuntos\\CollectionsParteUm\\CollectionsParteUm\\CollectionsParteUm.csproj",
-        "projectName": "CollectionsParteUm",
-        "projectPath": "C:\\Users\\luan.marques\\AutoPlay\\CSharp\\CSarp_Collections_parte_1_Listas_arrays_listas_ligadas_dicionarios_e_conjuntos\\CollectionsParteUm\\CollectionsParteUm\\CollectionsParteUm.csproj",
+        "projectUniqueName": "C:\\Users\\luan.marques\\AutoPlay\\CSharp\\CSarp_Collections_parte_1_Listas_arrays_listas_ligadas_dicionarios_e_conjuntos\\ModuloUmArray\\ModuloUmArray.csproj",
+        "projectName": "ModuloUmArray",
+        "projectPath": "C:\\Users\\luan.marques\\AutoPlay\\CSharp\\CSarp_Collections_parte_1_Listas_arrays_listas_ligadas_dicionarios_e_conjuntos\\ModuloUmArray\\ModuloUmArray.csproj",
         "packagesPath": "C:\\Users\\luan.marques\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\luan.marques\\AutoPlay\\CSharp\\CSarp_Collections_parte_1_Listas_arrays_listas_ligadas_dicionarios_e_conjuntos\\CollectionsParteUm\\CollectionsParteUm\\obj\\",
+        "outputPath": "C:\\Users\\luan.marques\\AutoPlay\\CSharp\\CSarp_Collections_parte_1_Listas_arrays_listas_ligadas_dicionarios_e_conjuntos\\ModuloUmArray\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

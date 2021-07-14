@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("CollectionsParteUm")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("ModuloUmArray")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("CollectionsParteUm")]
-[assembly: System.Reflection.AssemblyTitleAttribute("CollectionsParteUm")]
+[assembly: System.Reflection.AssemblyProductAttribute("ModuloUmArray")]
+[assembly: System.Reflection.AssemblyTitleAttribute("ModuloUmArray")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

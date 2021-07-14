@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsParteUm", "CollectionsParteUm\CollectionsParteUm.csproj", "{D7330A0F-B186-4E41-A6AB-703F8A40562F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuloDoisList", "ModuloDoisList\ModuloDoisList.csproj", "{D340404C-9519-454C-8EC5-105A5FFCED31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModuloDoisList", "ModuloDoisList\ModuloDoisList.csproj", "{D340404C-9519-454C-8EC5-105A5FFCED31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuloUmArray", "ModuloUmArray\ModuloUmArray.csproj", "{8B83918C-DD98-4409-80CE-6D2E076BD0B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D340404C-9519-454C-8EC5-105A5FFCED31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D340404C-9519-454C-8EC5-105A5FFCED31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D340404C-9519-454C-8EC5-105A5FFCED31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B83918C-DD98-4409-80CE-6D2E076BD0B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B83918C-DD98-4409-80CE-6D2E076BD0B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B83918C-DD98-4409-80CE-6D2E076BD0B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B83918C-DD98-4409-80CE-6D2E076BD0B1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

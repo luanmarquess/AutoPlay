@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\luan.marques\\AutoPlay\\CSharp\\CSarp_Collections_parte_1_Listas_arrays_listas_ligadas_dicionarios_e_conjuntos\\CollectionsParteUm\\ModuloDoisList\\ModuloDoisList.csproj",
+      "projectUniqueName": "C:\\Users\\luan.marques\\AutoPlay\\CSharp\\CSarp_Collections_parte_1_Listas_arrays_listas_ligadas_dicionarios_e_conjuntos\\ModuloDoisList\\ModuloDoisList.csproj",
       "projectName": "ModuloDoisList",
-      "projectPath": "C:\\Users\\luan.marques\\AutoPlay\\CSharp\\CSarp_Collections_parte_1_Listas_arrays_listas_ligadas_dicionarios_e_conjuntos\\CollectionsParteUm\\ModuloDoisList\\ModuloDoisList.csproj",
+      "projectPath": "C:\\Users\\luan.marques\\AutoPlay\\CSharp\\CSarp_Collections_parte_1_Listas_arrays_listas_ligadas_dicionarios_e_conjuntos\\ModuloDoisList\\ModuloDoisList.csproj",
       "packagesPath": "C:\\Users\\luan.marques\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\luan.marques\\AutoPlay\\CSharp\\CSarp_Collections_parte_1_Listas_arrays_listas_ligadas_dicionarios_e_conjuntos\\CollectionsParteUm\\ModuloDoisList\\obj\\",
+      "outputPath": "C:\\Users\\luan.marques\\AutoPlay\\CSharp\\CSarp_Collections_parte_1_Listas_arrays_listas_ligadas_dicionarios_e_conjuntos\\ModuloDoisList\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
