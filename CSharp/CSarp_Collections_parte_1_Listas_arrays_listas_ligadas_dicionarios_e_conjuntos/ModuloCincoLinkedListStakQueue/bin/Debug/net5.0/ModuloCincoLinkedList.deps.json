@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ModuloCincoLinkedList/1.0.0": {
+        "runtime": {
+          "ModuloCincoLinkedList.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ModuloCincoLinkedList/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
