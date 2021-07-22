@@ -1,0 +1,4 @@
+C:\Users\luan.marques\AutoPlay\CSharp\TestesDeUnidadeTDDComxUnit\Alura.LeilaoOnline\Alura.LeilaoOnline.ConsoleApp\obj\Debug\netcoreapp3.1\Alura.LeilaoOnline.ConsoleApp.csproj.AssemblyReference.cache
+C:\Users\luan.marques\AutoPlay\CSharp\TestesDeUnidadeTDDComxUnit\Alura.LeilaoOnline\Alura.LeilaoOnline.ConsoleApp\obj\Debug\netcoreapp3.1\Alura.LeilaoOnline.ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\luan.marques\AutoPlay\CSharp\TestesDeUnidadeTDDComxUnit\Alura.LeilaoOnline\Alura.LeilaoOnline.ConsoleApp\obj\Debug\netcoreapp3.1\Alura.LeilaoOnline.ConsoleApp.AssemblyInfo.cs
+C:\Users\luan.marques\AutoPlay\CSharp\TestesDeUnidadeTDDComxUnit\Alura.LeilaoOnline\Alura.LeilaoOnline.ConsoleApp\obj\Debug\netcoreapp3.1\Alura.LeilaoOnline.ConsoleApp.csproj.CoreCompileInputs.cache
