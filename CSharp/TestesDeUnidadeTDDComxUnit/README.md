@@ -1,10 +1,2 @@
-# CSharp
+# CSharp: Testes de unidade e TDD com xUnit
 
-- int;
-- long;
-- short;
-- double;
-- float;
-- for;
-- while;
-- break;
