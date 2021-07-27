@@ -11,7 +11,7 @@
         - Corrige os erros;
         - Refatora o código se necessário;
 - Assert.Throws<> // verifica lançamento de exceções de acordo com cada entrada;
-
+- Usar os testes para melhorar o design das classes;
 
 
 
